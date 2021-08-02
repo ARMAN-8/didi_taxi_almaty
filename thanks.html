@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+  <title>DiDi Taxi Almaty</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon"/>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"/>
+  <!-- Google Fonts Roboto -->
+  <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+  />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css"/>
+  <link rel="stylesheet" href="./css/style.css"/>
+  <link rel="stylesheet" href="./css/media-queries.css">
+  <link rel="stylesheet" href="./css/animate.css"/>
+  <style>
+    .add_palitra {
+      display: block;
+      width: 80px;
+      height: 150px;
+      position: fixed;
+      left: 5%;
+      top: 50%;
+      z-index: 99999;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="text-center">
+      <div class="mb-4">
+        <i class="fas fa-thumbs-up orangeColor wow bounce infinite fa-5x"></i>
+      </div>
+      <h5 class="mb-3">Успешно отправлено!</h5>
+      <p class="mb-3">Команда DiDi-Go</p>
+    </div>
+  </div>
+</div>
+
+<!-- MDB -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>-->
+<script src="./telegramform.js"></script>
+
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Custom scripts -->
+<script type="text/javascript"></script>
+<!--<script src="./js/script.js"></script>-->
+<script src="./js/wow.min.js"></script>
+<script>
+  new WOW().init();
+
+  function slowScroll(id) {
+    var offset = 0;
+    $('html,body').animate({
+      scrollTop: $(id).offset().top - offset
+    }, 500);
+    return false;
+  }
+</script>
+</body>
+</html>
