@@ -1,0 +1,116 @@
+
+
+
+
+
+
+
+
+
+.navbar {
+    background: rgb(255,150,3);
+    background: linear-gradient(90deg, rgba(255,150,3,1) 0%, rgba(255,62,19,1) 100%);
+    color: #fff;
+}
+
+.top-number {
+    color: #f9f9f9;
+}
+
+.main_img {
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(251, 251, 251, 0.7)
+}
+
+.btn.btn-own-orange {
+    background: rgb(255,155,48);
+    background: linear-gradient(90deg, rgba(255,155,48,1) 0%, rgba(255,59,0,1) 100%);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.btn.btn-own-orange:hover {
+    background: rgb(255,59,0);
+    background: linear-gradient(90deg, rgba(255,59,0,1) 0%, rgba(255,155,48,1) 100%);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.gradient-bg {
+    /*background: rgb(255,150,3);
+    background: linear-gradient(90deg, rgba(255,150,3,1) 0%, rgba(255,62,19,1) 100%);*/
+    background: rgb(255,155,48);
+    background: linear-gradient(90deg, rgba(255,155,48,1) 0%, rgba(255,59,0,1) 100%);
+    color: #fff;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.gradient-bg:hover {
+    background: rgb(255,59,0);
+    background: linear-gradient(90deg, rgba(255,59,0,1) 0%, rgba(255,155,48,1) 100%);
+    color: #fff;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.gradient-bg-text {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.content-title {
+    color: #090909;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.block-3 {
+    background: #f9f9f9;
+}
+.block-4 {
+    background: #f9f9f9;
+}
+
+.block-5 {
+    background-image: url("../img/didi__2.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.video-tag {
+    border-radius: 20px;
+}
+
+.twoCards {
+    background-color: rgba(251, 251, 251, 0.7)
+}
+
+.orangeColor {
+    color: #FF9B30FF;
+}
+
+.orangeNumber {
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #ff7c41;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 3px;
+    font-style: normal;
+}
+
+.title-1 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    display: flex;
+}
