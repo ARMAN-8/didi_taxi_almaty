@@ -406,23 +406,31 @@
                             <form action="telegram.php" method="POST">
                                 <legend>Заголовок формы</legend>
 
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="name" placeholder="Введите имя">
+                                <div class="form-outline mb-4">
+                                    <input type="text" class="form-control" id="form4Example1" name="name"
+                                           placeholder="Арсен Сарсенов">
+                                    <label class="form-label" for="form4Example1">Имя</label>
                                 </div>
 
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="phone" placeholder="Введите телефон">
+                                <div class="form-outline mb-4">
+                                    <input type="text" class="form-control" id="form4Example2" name="phone"
+                                           placeholder="8(707)982-0199">
+                                    <label class="form-label" for="form4Example2">Телефон номер</label>
                                 </div>
 
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="email" placeholder="Введите email">
+                                <div class="form-outline mb-4">
+                                    <input type="text" class="form-control" id="form4Example3" name="email"
+                                           placeholder="arsensarsen@gmail.com">
+                                    <label class="form-label" for="form4Example3">E-mail</label>
                                 </div>
 
-                                <div class="form-group">
-                                    <textarea name="msg" placeholder="введите сообщение"></textarea>
+                                <div class="form-outline mb-4">
+                                    <textarea name="msg" class="form-control" id="textAreaExample"
+                                              placeholder="введите сообщение" rows="4"></textarea>
+                                    <label class="form-label" for="textAreaExample">Как стать водителем?</label>
                                 </div>
 
-                                <button type="submit" class="btn">Отправить форму</button>
+                                <button type="submit" class="btn btn-own-orange btn-lg">Отправить форму</button>
                             </form>
 
 
