@@ -23,6 +23,14 @@
             background-position: 182px;
         }
     }
+    @keyframes one-light2 {
+        0% {
+            background-position: 0px;
+        }
+        30%, 100% {
+            background-position: 182px;
+        }
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -36,6 +44,14 @@
         color: #f9f9f9;
     }
     @keyframes one-light {
+        0% {
+            background-position: 0px;
+        }
+        30%, 100% {
+            background-position: 150px;
+        }
+    }
+    @keyframes one-light2 {
         0% {
             background-position: 0px;
         }
@@ -64,6 +80,14 @@
             background-position: 190px;
         }
     }
+    @keyframes one-light2 {
+        0% {
+            background-position: 0px;
+        }
+        30%, 100% {
+            background-position: 190px;
+        }
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -77,6 +101,14 @@
         color: #f9f9f9;
     }
     @keyframes one-light {
+        0% {
+            background-position: 0px;
+        }
+        30%, 100% {
+            background-position: 230px;
+        }
+    }
+    @keyframes one-light2 {
         0% {
             background-position: 0px;
         }
