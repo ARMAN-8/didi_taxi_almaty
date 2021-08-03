@@ -15,6 +15,14 @@
         background-attachment: fixed;
         background-color: rgba(251, 251, 251, 0.7)
     }
+    @keyframes one-light {
+        0% {
+            background-position: 0px;
+        }
+        30%, 100% {
+            background-position: 182px;
+        }
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -26,6 +34,14 @@
     .own-h5 {
         font-size: 16px;
         color: #f9f9f9;
+    }
+    @keyframes one-light {
+        0% {
+            background-position: 0px;
+        }
+        30%, 100% {
+            background-position: 150px;
+        }
     }
 
 }
@@ -40,6 +56,14 @@
         font-size: 18px;
         color: #f9f9f9;
     }
+    @keyframes one-light {
+        0% {
+            background-position: 0px;
+        }
+        30%, 100% {
+            background-position: 190px;
+        }
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -52,6 +76,14 @@
         font-size: 20px;
         color: #f9f9f9;
     }
+    @keyframes one-light {
+        0% {
+            background-position: 0px;
+        }
+        30%, 100% {
+            background-position: 230px;
+        }
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -63,5 +95,13 @@
     .own-h5 {
         font-size: 20px;
         color: #f9f9f9;
+    }
+    @keyframes one-light {
+        0% {
+            background-position: 0px;
+        }
+        30%, 100% {
+            background-position: 230px;
+        }
     }
 }

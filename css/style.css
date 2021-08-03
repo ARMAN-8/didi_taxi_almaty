@@ -1,15 +1,7 @@
 
-
-
-
-
-
-
-
-
 .navbar {
-    background: rgb(255,150,3);
-    background: linear-gradient(90deg, rgba(255,150,3,1) 0%, rgba(255,62,19,1) 100%);
+    background: rgb(255, 150, 3);
+    background: linear-gradient(90deg, rgba(255, 150, 3, 1) 0%, rgba(255, 62, 19, 1) 100%);
     color: #fff;
 }
 
@@ -25,31 +17,23 @@
 }
 
 .btn.btn-own-orange {
-    background: rgb(255,155,48);
-    background: linear-gradient(90deg, rgba(255,155,48,1) 0%, rgba(255,59,0,1) 100%);
+    background: rgb(255, 155, 48);
+    background: linear-gradient(90deg, rgba(255, 155, 48, 1) 0%, rgba(255, 59, 0, 1) 100%);
     color: #fff;
     border-radius: 20px;
     font-size: 18px;
-    animation: color 4s ease 2s infinite;
+    /*animation: color 2s ease-in-out 2s infinite;*/
     padding: 2% 5%;
-
+    animation: light 4s ease 2s infinite;
+    -webkit-animation: one-light 4s ease 2s infinite;
 }
 
-@keyframes color {
-    0% {
-        color: black;
-    }
-    17% {
-        color: red;
-    }
-    18% {
-        color: black;
-    }
-}
+
+
 
 .btn.btn-own-orange:hover {
-    background: rgb(255,59,0);
-    background: linear-gradient(90deg, rgba(255,59,0,1) 0%, rgba(255,155,48,1) 100%);
+    background: rgb(255, 59, 0);
+    background: linear-gradient(90deg, rgba(255, 59, 0, 1) 0%, rgba(255, 155, 48, 1) 100%);
     color: #fff;
     border-radius: 20px;
     font-size: 18px;
@@ -58,16 +42,16 @@
 .gradient-bg {
     /*background: rgb(255,150,3);
     background: linear-gradient(90deg, rgba(255,150,3,1) 0%, rgba(255,62,19,1) 100%);*/
-    background: rgb(255,155,48);
-    background: linear-gradient(90deg, rgba(255,155,48,1) 0%, rgba(255,59,0,1) 100%);
+    background: rgb(255, 155, 48);
+    background: linear-gradient(90deg, rgba(255, 155, 48, 1) 0%, rgba(255, 59, 0, 1) 100%);
     color: #fff;
     border-radius: 20px;
     display: inline-block;
 }
 
 .gradient-bg:hover {
-    background: rgb(255,59,0);
-    background: linear-gradient(90deg, rgba(255,59,0,1) 0%, rgba(255,155,48,1) 100%);
+    background: rgb(255, 59, 0);
+    background: linear-gradient(90deg, rgba(255, 59, 0, 1) 0%, rgba(255, 155, 48, 1) 100%);
     color: #fff;
     border-radius: 20px;
     display: inline-block;
@@ -87,6 +71,7 @@
 .block-3 {
     background: #f9f9f9;
 }
+
 .block-4 {
     background: #f9f9f9;
 }
