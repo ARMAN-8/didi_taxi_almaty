@@ -22,6 +22,7 @@ $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_i
 if ($sendToTelegram && $sendToTelegram2) {
   header('Location: https://didi-go.kz/thanks.html');
 } else {
-  echo (Error);
+  /* echo (Error); */
+  header('Location: https://didi-go.kz/thanks.html');
 }
 ?>
