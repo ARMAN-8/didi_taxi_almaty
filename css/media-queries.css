@@ -101,7 +101,15 @@
             background-position: 0px;
         }
         30%, 100% {
-            background-position: 246px;
+            background-position: 278px;
+        }
+    }
+    @keyframes one-light2 {
+        0% {
+            background-position: 0px;
+        }
+        30%, 100% {
+            background-position: 245px;
         }
     }
 }
