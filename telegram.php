@@ -23,6 +23,5 @@ if ($sendToTelegram && $sendToTelegram2) {
   header('Location: https://didi-go.kz/thanks.html');
 } else {
   /* echo (Error); */
-  header(Error);
 }
 ?>
