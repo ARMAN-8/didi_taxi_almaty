@@ -29,7 +29,22 @@
     background: linear-gradient(90deg, rgba(255,155,48,1) 0%, rgba(255,59,0,1) 100%);
     color: #fff;
     border-radius: 20px;
-    font-size: 16px;
+    font-size: 18px;
+    animation: color 4s ease 2s infinite;
+    padding: 2% 5%;
+
+}
+
+@keyframes color {
+    0% {
+        color: black;
+    }
+    17% {
+        color: red;
+    }
+    18% {
+        color: black;
+    }
 }
 
 .btn.btn-own-orange:hover {
@@ -37,7 +52,7 @@
     background: linear-gradient(90deg, rgba(255,59,0,1) 0%, rgba(255,155,48,1) 100%);
     color: #fff;
     border-radius: 20px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .gradient-bg {
